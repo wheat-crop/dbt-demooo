@@ -1,0 +1,13 @@
+dbtdemooo:
+  outputs:
+    dev:
+      account: npgeixf-jy71464
+      database: raw
+      password: dbtPassword123
+      role: transform
+      schema: airbnb
+      threads: 1
+      type: snowflake
+      user: dbt
+      warehouse: COMPUTE_WH
+  target: dev
